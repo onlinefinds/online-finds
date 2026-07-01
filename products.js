@@ -11,7 +11,7 @@ const PRODUCTS = [
     id: 1,
     title: "One Fire Sternenhimmel Projektor",
     category: "tech",
-    image: "https://amzn.eu/d/0avaTT0i",
+    image: "https://amzn.eu/d/07qzHK5n",
     price: 36.06,
     oldPrice: 40.26,
     rating: 4.4,
