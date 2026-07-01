@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Online Finds – Gute Funde, ohne Suchen</title>
+<meta name="description" content="Kuratierte Produktfunde und Angebote. Online Finds zeigt dir, was sich wirklich lohnt.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="topbar">Diese Seite enthält Affiliate-Links. Beim Kauf über einen "Zum Angebot"-Button erhalten wir ggf. eine kleine Provision – für dich ändert sich am Preis nichts.</div>
+
+<header class="site-header">
+  <div class="header-inner">
+    <a href="/" class="logo">
+      <span class="logo-mark">OF</span>
+      <span class="logo-text">Online<em>Finds</em></span>
+    </a>
+
+    <div class="search-wrap">
+      <input type="text" id="searchInput" class="search-input" placeholder="Wonach suchst du? z.B. Kopfhörer, Küche, Rucksack…">
+      <button class="search-btn" id="searchBtn" aria-label="Suchen">
+        <svg viewBox="0 0 24 24" width="20" height="20"><path fill="currentColor" d="M15.5 14h-.79l-.28-.27a6.5 6.5 0 1 0-.7.7l.27.28v.79l5 5 1.5-1.5-5-5zm-6 0a4.5 4.5 0 1 1 0-9 4.5 4.5 0 0 1 0 9z"/></svg>
+      </button>
+    </div>
+
+    <nav class="header-links">
+      <a href="#deals">Angebote</a>
+      <a href="#categories">Kategorien</a>
+      <a href="#about">Über uns</a>
+    </nav>
+  </div>
+
+  <nav class="category-strip" id="categories">
+    <button class="cat-chip active" data-cat="alle">Alle Funde</button>
+    <button class="cat-chip" data-cat="haushalt">Haushalt</button>
+    <button class="cat-chip" data-cat="tech">Tech</button>
+    <button class="cat-chip" data-cat="outdoor">Outdoor</button>
+    <button class="cat-chip" data-cat="kueche">Küche</button>
+    <button class="cat-chip" data-cat="beauty">Beauty</button>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="hero-inner">
+    <span class="hero-eyebrow">Handverlesen &amp; regelmässig aktualisiert</span>
+    <h1>Gute Funde,<br>ohne selbst zu graben.</h1>
+    <p>Wir wühlen durch Bestseller, Schnäppchen und Geheimtipps – du bekommst nur, was sich wirklich lohnt.</p>
+  </div>
+</section>
+
+<main class="content">
+  <section id="deals">
+    <div class="section-head">
+      <h2>Aktuelle Funde</h2>
+      <span class="result-count" id="resultCount"></span>
+    </div>
+
+    <div class="product-grid" id="productGrid"></div>
+
+    <p class="empty-state" id="emptyState" hidden>Keine Funde für diese Suche. Versuch es mit einem anderen Begriff.</p>
+  </section>
+</main>
+
+<footer class="site-footer" id="about">
+  <div class="footer-inner">
+    <div class="footer-col">
+      <span class="logo-text footer-logo">Online<em>Finds</em></span>
+      <p>Eine kleine, kuratierte Auswahl an Produkten, die wir selbst gut finden. Alle "Zum Angebot"-Links sind Affiliate-Links.</p>
+    </div>
+    <div class="footer-col">
+      <h3>Rechtliches</h3>
+      <p>Als Affiliate-Partner (z.B. bei Amazon) verdienen wir an qualifizierten Käufen, die über unsere Links getätigt werden. Preise und Verfügbarkeit können sich seit der letzten Aktualisierung geändert haben; massgeblich ist der Preis auf der Zielseite.</p>
+    </div>
+  </div>
+  <div class="footer-bottom">© <span id="year"></span> Online Finds</div>
+</footer>
+
+<script src="products.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
