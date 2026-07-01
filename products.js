@@ -9,15 +9,15 @@
 const PRODUCTS = [
   {
     id: 1,
-    title: "Kabellose Over-Ear Kopfhörer mit ANC",
+    title: "One Fire Sternenhimmel Projektor",
     category: "tech",
-    image: "https://placehold.co/600x600/F1EBDF/2A2A28?text=Kopfh%C3%B6rer",
-    price: 79.90,
-    oldPrice: 119.90,
-    rating: 4.5,
+    image: "https://amzn.eu/d/0avaTT0i",
+    price: 36.06,
+    oldPrice: 40.26,
+    rating: 4.4,
     reviews: 2341,
     featured: true,
-    affiliateUrl: "https://www.amazon.de/dp/BEISPIEL1?tag=DEIN-AFFILIATE-TAG"
+    affiliateUrl: "https://amzn.to/3QBeqtY"
   },
   {
     id: 2,
