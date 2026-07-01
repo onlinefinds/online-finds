@@ -19,3 +19,15 @@ const PRODUCTS = [
     featured: true,
     affiliateUrl: "https://amzn.to/3QBeqtY"
   },
+   {
+    id: 2,
+    title: "ACED Mondlampe",
+    category: "tech",
+    image: "https://amzn.eu/d/0dDq4aC3",
+    price: 24.31,
+    oldPrice: 24.31,
+    rating: 4.3,
+    reviews: 5329,
+    featured: true,
+    affiliateUrl: "https://amzn.to/4eUS5iS"
+  },
