@@ -79,4 +79,5 @@ const PRODUCTS = [
     featured: true,
     affiliateUrl: "https://amzn.to/4xYnDNC"
   },
+  ]
   
